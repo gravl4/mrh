@@ -6,7 +6,7 @@ fn main() {
     use console::style;
     //use indicatif::ProgressBar;
 
-    println!("This is {} neat", style("quitesd").cyan().bold());
+    println!("This is {} neat", style("quite222").cyan().bold());
 
     let mut se = String::from("string hello");
     println!("{}", se);
