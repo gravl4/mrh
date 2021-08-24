@@ -1,0 +1,13 @@
+[package]
+name = "mrh"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+# Профиль dev используется по умолчанию при вызове команды cargo build
+[profile.dev]
+debug = true  # Добавляет флаг `-g` для компилятора;
+opt-level = 0 # Отключаем оптимизацию кода;
+
+[dependencies]
+console = "0.14.1"
